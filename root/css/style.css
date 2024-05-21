@@ -20,6 +20,12 @@ html {
   height: 100%;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
 /* Splash Screen Page */
 
 #splash {
@@ -53,12 +59,6 @@ html {
 
 .container {
   padding: 0 1rem 0 1rem;
-}
-
-.introText p {
-  font-size: 60px;
-  font-weight: 700;
-  color: #ffffff;
 }
 
 .introText {
