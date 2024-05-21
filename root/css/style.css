@@ -1,0 +1,58 @@
+/* Default */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+ .container{
+    padding: 1rem;
+ }
+p {
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #242424;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+li {
+    padding-left: 2rem;
+    list-style-type: disc;
+}
+ul {
+    padding-left: 2rem;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    padding: 0 5rem;
+    background-color: #caebff;
+    width: 100%;
+    max-width: 700px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #878787;
+    font-size: 0.8rem;
+}
+
+.nav-item img {
+    width: 25px;
+}
