@@ -1,0 +1,107 @@
+/* Default Styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  padding-bottom: 100px;
+  max-width: 393px;
+  margin: 0 auto;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* Splash Screen Page */
+
+#splash {
+  background-image: url(../img/background.jpg);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; */
+}
+
+.fullHeight {
+  height: 100vh;
+}
+
+.backgroundImage {
+  /* background-attachment: fixed; */
+  background-size: cover;
+  position: top;
+}
+
+.logo img {
+  width: 12rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: right;
+  padding: 3rem 0 0 0;
+}
+
+.container {
+  padding: 0 1rem 0 1rem;
+}
+
+.introText p {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.introText {
+  padding: 2rem 0 0 0;
+}
+
+.container-splash {
+  background-color: rgba(0, 0, 0, 0.28);
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 2rem 2.5rem 2rem 2rem;
+  margin-top: 3rem;
+}
+
+.container-splash p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.splash-btn1 {
+  background-color: #0018ad;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 1rem 4rem;
+  margin-top: 3rem;
+  border-radius: 13px;
+}
+
+.splash-btn2 {
+  background-color: #ffffff;
+  color: #0018ad;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 1rem 4rem;
+  margin-top: 2rem;
+  border-radius: 13px;
+}
