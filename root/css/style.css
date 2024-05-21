@@ -23,6 +23,7 @@ html {
 /* Splash Screen Page */
 
 #splash {
+  /* display: none; */
   background-image: url(../img/background.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
@@ -104,4 +105,34 @@ html {
   padding: 1rem 4rem;
   margin-top: 2rem;
   border-radius: 13px;
+}
+
+/* Log In Page */
+
+#logIn {
+  /* display: none; */
+  background-image: url(../img/background.jpg);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; */
+}
+
+.headerLogIn img {
+  width: 12rem;
+}
+
+.headerLogIn {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0 0 1rem;
+  justify-content: space-between;
+}
+
+.icon-color-white {
+  color: white;
+}
+
+.icon-size-medium {
+  font-size: 27px;
 }
