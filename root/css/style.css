@@ -44,12 +44,20 @@ ul {
     padding-left: 2rem;
 }
 
-/*header*/
+span.bold {
+    font-weight: bold;
+}
+
+/*HEADER*/
 .headerWrapper {
+    padding-top: 0.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1.5rem;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    background: white;
 }
 .headerWrapper img {
     width: 10rem;
@@ -62,15 +70,26 @@ ul {
     font-size: 27px;
 }
 
+
+
+
+/*ABOUT US section*/
+#about{
+    /* display: none; */
+    padding-top: 1.5rem;
+}
 span.helping {
     padding-bottom: 30rem;
 }
-span.bold {
-    font-weight: bold;
+
+/*CONTACT section*/
+/* display: none; */
+#contact{
+    padding-top: 1.5rem;
 }
 
 
-/*bottom navigation*/
+/*BOTTOM NAVIGATION*/
 nav {
     display: flex;
     justify-content: space-between;
