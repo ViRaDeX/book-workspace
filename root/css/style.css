@@ -4,6 +4,19 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    padding-bottom: 100px;
+    max-width: 393px;
+    margin: 0 auto;
+}
+
+
+body,
+html {
+    height: 100%;
 }
  .container{
     padding: 1rem;
@@ -12,12 +25,15 @@ p {
     font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: #242424;
+    padding-bottom: 2rem;
 }
 
 h3 {
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
+    font-weight: normal;
+    padding-bottom: 1rem;
 }
 
 li {
@@ -28,9 +44,33 @@ ul {
     padding-left: 2rem;
 }
 
+/*header*/
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.headerWrapper img {
+    width: 10rem;
+
+}
+.icon-color-blue {
+    color: #0018AD;
+}
+.icon-size-medium {
+    font-size: 27px;
+}
+
+span.helping {
+    padding-bottom: 30rem;
+}
+span.bold {
+    font-weight: bold;
+}
 
 
-
+/*bottom navigation*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -41,7 +81,7 @@ nav {
     padding: 0 5rem;
     background-color: #caebff;
     width: 100%;
-    max-width: 700px;
+    max-width: 393px;
 }
 
 .nav-item {
