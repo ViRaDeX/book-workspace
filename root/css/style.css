@@ -87,6 +87,10 @@ span.helping {
 #contact{
     padding-top: 1.5rem;
 }
+.map {
+    padding-bottom: 5rem;
+    width: 100%;
+}
 
 
 /*BOTTOM NAVIGATION*/
