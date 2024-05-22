@@ -26,6 +26,11 @@ h1 {
   color: #ffffff;
 }
 
+p {
+  font-size: 16px;
+  color: #242424;
+}
+
 /* Splash Screen Page */
 
 #splash {
@@ -67,7 +72,6 @@ h1 {
 
 .container-splash {
   background-color: rgba(0, 0, 0, 0.28);
-  color: #ffffff;
   border-radius: 25px;
   padding: 2rem 2.5rem 2rem 2rem;
   margin-top: 3rem;
@@ -76,6 +80,7 @@ h1 {
 .container-splash p {
   font-size: 22px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .center {
@@ -83,6 +88,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 2.5rem;
 }
 
 .splash-btn1 {
@@ -94,6 +100,7 @@ h1 {
   padding: 1rem 4rem;
   margin-top: 3rem;
   border-radius: 13px;
+  width: 100%;
 }
 
 .splash-btn2 {
@@ -105,6 +112,7 @@ h1 {
   padding: 1rem 4rem;
   margin-top: 2rem;
   border-radius: 13px;
+  width: 100%;
 }
 
 /* Log In Page */
@@ -135,4 +143,46 @@ h1 {
 
 .icon-size-medium {
   font-size: 27px;
+}
+
+span.center {
+  justify-content: center;
+}
+
+.welcome {
+  padding-top: 8rem;
+}
+
+.container-logIn {
+  background-color: rgba(255, 255, 255, 0.79);
+  color: #ffffff;
+  border-radius: 13px;
+  padding: 2.5rem;
+  margin-top: 7rem;
+}
+
+.container-logIn input {
+  border: 1px solid #0018ad;
+  padding: 0.7rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+.container-logIn p {
+  text-align: right;
+}
+
+.dhaaSUN {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+span.icon-color-blue {
+  color: #0018ad;
 }
