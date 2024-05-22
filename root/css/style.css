@@ -20,15 +20,101 @@ html {
   height: 100%;
 }
 
+p {
+  font-size: 16px;
+  color: #242424;
+  padding-bottom: 2rem;
+}
+
 h1 {
   font-size: 60px;
   font-weight: 700;
   color: #ffffff;
 }
 
-p {
-  font-size: 16px;
-  color: #242424;
+h3 {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  font-weight: normal;
+  padding-bottom: 1rem;
+}
+
+li {
+  padding-left: 2rem;
+  list-style-type: disc;
+}
+ul {
+  padding-left: 2rem;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+span.icon-color-blue {
+  color: #0018ad;
+}
+
+/*HEADER*/
+.headerWrapper {
+  padding-top: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  background: white;
+}
+.headerWrapper img {
+  width: 10rem;
+}
+.icon-color-blue {
+  color: #0018ad;
+}
+.icon-size-medium {
+  font-size: 27px;
+}
+
+/*BOTTOM NAVIGATION*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  padding: 2rem 4rem;
+  background-color: #caebff;
+  width: 100%;
+  max-width: 393px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 0.8rem; */
+}
+
+.nav-item img {
+  width: 27px;
+}
+span.BaHoPr {
+  color: #0018ad;
+  font-size: 10px;
+  font-weight: bold;
+  /* padding: 0; */
+}
+
+nav p {
+  padding: 0;
 }
 
 /* Splash Screen Page */
@@ -169,10 +255,6 @@ span.center {
   width: 100%;
 }
 
-span.underline {
-  text-decoration: underline;
-}
-
 .container-logIn p {
   text-align: right;
 }
@@ -195,4 +277,33 @@ span.icon-color-blue {
   position: absolute;
   top: 10px;
   right: 20px;
+}
+/*ABOUT US section*/
+#about {
+  /* display: none; */
+  padding-top: 1.5rem;
+}
+span.helping {
+  padding-bottom: 30rem;
+}
+
+/*CONTACT section*/
+/* display: none; */
+#contact {
+  padding-top: 1.5rem;
+}
+#contact p {
+  padding: 0;
+  padding-bottom: 2rem;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  /* height: 200px;     */
+  align-items: center;
+}
+.iframe {
+  width: 80%;
+  height: 230px;
 }
