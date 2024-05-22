@@ -97,7 +97,7 @@ nav {
     position: fixed;
     bottom: 0;
     height: 60px;
-    padding: 0 5rem;
+    padding: 2rem 4rem;
     background-color: #caebff;
     width: 100%;
     max-width: 393px;
@@ -108,10 +108,19 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #878787;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
 }
 
 .nav-item img {
-    width: 25px;
+    width: 27px;
+}
+span.BaHoPr{
+    color: #0018AD;
+    font-size: 10px;
+    font-weight: bold;
+    /* padding: 0; */
+}
+
+nav p {
+    padding: 0;
 }
