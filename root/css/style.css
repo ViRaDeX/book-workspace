@@ -87,11 +87,21 @@ span.helping {
 #contact{
     padding-top: 1.5rem;
 }
-.map {
-    padding-bottom: 5rem;
-    width: 100%;
+#contact p{
+    padding: 0;
+    padding-bottom: 2rem;
 }
-
+.map {
+    display:flex;
+    justify-content: center;    
+    padding-bottom: 5rem;
+    /* height: 200px;     */
+    align-items: center;
+}
+.iframe {
+    width: 80%;
+    height: 230px;
+}
 
 /*BOTTOM NAVIGATION*/
 nav {
