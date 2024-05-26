@@ -23,7 +23,6 @@ html {
 p {
   font-size: 16px;
   color: #242424;
-  padding-bottom: 2rem;
 }
 
 h1 {
@@ -35,7 +34,6 @@ h1 {
 h3 {
   font-size: 22px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: underline;
   font-weight: normal;
   padding-bottom: 1rem;
 }
@@ -63,8 +61,10 @@ span.icon-color-blue {
 /* HEADER */
 
 #header {
-  display: none;
+  /* display: none; */
+  padding: 0.75rem 1.5rem;
 }
+
 .headerWrapper {
   padding-top: 0.75rem;
   display: flex;
@@ -75,12 +75,15 @@ span.icon-color-blue {
   top: 0;
   background: white;
 }
+
 .headerWrapper img {
   width: 10rem;
 }
+
 .icon-color-blue {
   color: #0018ad;
 }
+
 .icon-size-medium {
   font-size: 27px;
 }
@@ -90,6 +93,7 @@ span.icon-color-blue {
 #navigation {
   display: none;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -114,21 +118,17 @@ nav {
 .nav-item img {
   width: 27px;
 }
+
 span.BaHoPr {
   color: #0018ad;
   font-size: 10px;
   font-weight: bold;
-  /* padding: 0; */
-}
-
-nav p {
-  padding: 0;
 }
 
 /* SPLASH */
 
 #splash {
-  /* display: none; */
+  display: none;
   background-image: url(../img/background.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
@@ -157,7 +157,7 @@ nav p {
 }
 
 .container {
-  padding: 0 1rem 0 1rem;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .introText {
@@ -212,7 +212,7 @@ nav p {
 /* LOG IN */
 
 #logIn {
-  /* display: none; */
+  display: none;
   background-image: url(../img/background.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
@@ -233,6 +233,10 @@ nav p {
 
 .icon-color-white {
   color: white;
+}
+
+.icon-size-small {
+  font-size: 23px;
 }
 
 .icon-size-medium {
@@ -290,9 +294,14 @@ span.icon-color-blue {
 /* ABOUT US */
 
 #about {
-  display: none;
-  padding-top: 1.5rem;
+  /* display: none; */
+  padding-top: 1rem;
 }
+
+#about p {
+  padding-bottom: 2rem;
+}
+
 span.helping {
   padding-bottom: 30rem;
 }
@@ -301,19 +310,30 @@ span.helping {
 
 #contact {
   /* display: none; */
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
+
 #contact p {
-  padding: 0;
-  padding-bottom: 2rem;
+  padding-left: 0.5rem;
 }
+
+.cef {
+  padding: 0.75rem 0 2rem 0.55rem;
+  display: flex;
+  align-items: center;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
 .map {
   display: flex;
   justify-content: center;
   padding-bottom: 5rem;
-  /* height: 200px;     */
   align-items: center;
 }
+
 .iframe {
   width: 80%;
   height: 230px;
