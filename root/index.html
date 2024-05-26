@@ -24,13 +24,15 @@
 
     <!-- HEADER -->
 
-    <header id="header" class="headerWrapper container">
+    <header id="header">
+      <div class="headerWrapper">
       <div class="headerlogo">
         <img src="img/BWS-logo.png" alt="BookWorkspace Logo" />
       </div>
 
       <div class="header-hamburger">
         <i class="fa-solid fa-bars icon-color-blue icon-size-medium"></i>
+      </div>
       </div>
     </header>
     <main>
@@ -53,7 +55,7 @@
         </p>
       </div>
       <div class="center">
-        <button class="splash-btn1">Log In | Sign Up</button>
+        <button id="buttonLS" class="splash-btn1">Log In | Sign Up</button>
         <button class="splash-btn2">Skip and explore</button>
       </div>
     </section>
@@ -62,7 +64,7 @@
 
     <section id="logIn" class="container fullHeight backgroundImage">
       <div class="headerLogIn">
-        <i class="fa-solid fa-arrow-left icon-color-white icon-size-medium"></i>
+        <i class="fa-solid fa-arrow-left icon-color-white icon-size-medium backBtn"></i>
         <img src="img/BWS-logo.png" alt="book workspace logo" />
       </div>
       <div class="welcome">
@@ -86,6 +88,7 @@
     </section>
 
     <!-- HOME -->   
+
     <section id="home">
     <div id="backgroundHome">
       <h2>
@@ -197,17 +200,17 @@
     <!-- NAVIGATION-->
     
     <nav id="navigation">
-      <div class="nav-item navArrow">
+      <div class="nav-item navArrow backBtn">
         <i class="fa-solid fa-arrow-left icon-color-blue icon-size-medium"></i>
         <p><span class="BaHoPr">Back</span></p>
       </div>
 
-      <div class="nav-item navHome">
+      <div id="homeBtn" class="nav-item navHome">
         <img src="img/icon-logo.png" alt="home button" />
         <p><span class="BaHoPr">Home</span></p>
       </div>
 
-      <div class="nav-item navProfile">
+      <div id="profileBtn" class="nav-item navProfile">
         <i class="fas fa-user-alt icon-color-blue icon-size-medium"></i>
         <p><span class="BaHoPr">Profile</span></p>
       </div>
