@@ -82,7 +82,11 @@ span.color-grey {
 /* HEADER */
 
 #header {
-  /* display: none; */
+  display: none;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  background: white;
   padding: 0.75rem 1.5rem;
 }
 
@@ -90,10 +94,6 @@ span.color-grey {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  z-index: 99;
-  top: 0;
-  background: white;
 }
 
 .headerWrapper img {
@@ -147,7 +147,7 @@ span.BaHoPr {
 /* SPLASH */
 
 #splash {
-  display: none;
+  /* display: none; */
   background-image: url(../img/background.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
@@ -313,6 +313,7 @@ span.icon-color-blue {
 /* HOME */
 
 #home {
+  display: none;
   padding-bottom: 7rem;
 }
 
@@ -342,7 +343,7 @@ span.icon-color-blue {
 /* ABOUT US */
 
 #about {
-  /* display: none; */
+  display: none;
   padding-top: 1rem;
 }
 
@@ -357,7 +358,7 @@ span.helping {
 /* CONTACT */
 
 #contact {
-  /* display: none; */
+  display: none;
   padding-top: 1rem;
 }
 
