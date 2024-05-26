@@ -111,7 +111,7 @@ span.color-grey {
 /* BOTTOM NAVIGATION */
 
 #navigation {
-  /* display: none; */
+  display: none;
 }
 
 nav {
@@ -132,7 +132,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* font-size: 0.8rem; */
 }
 
 .nav-item img {
@@ -141,8 +140,8 @@ nav {
 
 span.BaHoPr {
   color: #0018ad;
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 /* SPLASH */
