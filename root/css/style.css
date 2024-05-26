@@ -23,7 +23,6 @@ html {
 p {
   font-size: 16px;
   color: #242424;
-  padding-bottom: 2rem;
 }
 
 h1 {
@@ -32,12 +31,24 @@ h1 {
   color: #ffffff;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
 h3 {
   font-size: 22px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: underline;
+  color: #242424;
   font-weight: normal;
   padding-bottom: 1rem;
+}
+
+h4 {
+  font-size: 20px;
+  color: #242424;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
 }
 
 li {
@@ -60,13 +71,21 @@ span.icon-color-blue {
   color: #0018ad;
 }
 
+span.size14 {
+  font-size: 14px;
+}
+
+span.color-grey {
+  color: #7c7b7b;
+}
+
 /* HEADER */
 
 #header {
-  display: none;
+  /* display: none; */
+  padding: 0.75rem 1.5rem;
 }
 .headerWrapper {
-  padding-top: 0.75rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +107,7 @@ span.icon-color-blue {
 /* BOTTOM NAVIGATION */
 
 #navigation {
-  display: none;
+  /* display: none; */
 }
 nav {
   display: flex;
@@ -121,14 +140,10 @@ span.BaHoPr {
   /* padding: 0; */
 }
 
-nav p {
-  padding: 0;
-}
-
 /* SPLASH */
 
 #splash {
-  /* display: none; */
+  display: none;
   background-image: url(../img/background.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
@@ -157,7 +172,7 @@ nav p {
 }
 
 .container {
-  padding: 0 1rem 0 1rem;
+  padding: 0 1.5rem 0 1.5rem;
 }
 
 .introText {
@@ -167,7 +182,7 @@ nav p {
 .container-splash {
   background-color: rgba(0, 0, 0, 0.28);
   border-radius: 25px;
-  padding: 2rem 2.5rem 2rem 2rem;
+  padding: 1.5rem;
   margin-top: 3rem;
 }
 
@@ -203,7 +218,7 @@ nav p {
   border: none;
   font-size: 18px;
   font-weight: 700;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   margin-top: 2rem;
   border-radius: 13px;
   width: 100%;
@@ -212,7 +227,7 @@ nav p {
 /* LOG IN */
 
 #logIn {
-  /* display: none; */
+  display: none;
   background-image: url(../img/background.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
@@ -270,7 +285,7 @@ span.center {
 .dhaaSUN {
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 span.icon-color-blue {
@@ -287,6 +302,35 @@ span.icon-color-blue {
   right: 20px;
 }
 
+/* HOME */
+
+#home {
+  padding-bottom: 7rem;
+}
+
+#backgroundHome {
+  background-image: url(../img/homescreen-hero.jpg);
+  background-repeat: no-repeat;
+  padding: 4rem 2rem 1.5rem 6rem;
+}
+
+#backgroundHome h2 {
+  text-align: right;
+}
+
+.itemContainer {
+  padding: 2.5rem 3rem 0 3rem;
+}
+
+.itemContainer img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.textContainer {
+  padding-top: 0.5rem;
+}
+
 /* ABOUT US */
 
 #about {
@@ -300,7 +344,7 @@ span.helping {
 /* CONTACT */
 
 #contact {
-  /* display: none; */
+  display: none;
   padding-top: 1.5rem;
 }
 #contact p {
