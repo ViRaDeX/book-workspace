@@ -60,7 +60,8 @@ span.icon-color-blue {
   color: #0018ad;
 }
 
-/*HEADER*/
+/* HEADER */
+
 #header {
   display: none;
 }
@@ -84,7 +85,8 @@ span.icon-color-blue {
   font-size: 27px;
 }
 
-/*BOTTOM NAVIGATION*/
+/* BOTTOM NAVIGATION */
+
 #navigation {
   display: none;
 }
@@ -123,7 +125,7 @@ nav p {
   padding: 0;
 }
 
-/* Splash Screen Page */
+/* SPLASH */
 
 #splash {
   /* display: none; */
@@ -207,7 +209,7 @@ nav p {
   width: 100%;
 }
 
-/* Log In Page */
+/* LOG IN */
 
 #logIn {
   /* display: none; */
@@ -284,7 +286,9 @@ span.icon-color-blue {
   top: 10px;
   right: 20px;
 }
-/*ABOUT US section*/
+
+/* ABOUT US */
+
 #about {
   display: none;
   padding-top: 1.5rem;
@@ -293,9 +297,10 @@ span.helping {
   padding-bottom: 30rem;
 }
 
-/*CONTACT section*/
-/* display: none; */
+/* CONTACT */
+
 #contact {
+  /* display: none; */
   padding-top: 1.5rem;
 }
 #contact p {
