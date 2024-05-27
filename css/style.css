@@ -75,6 +75,10 @@ span.size14 {
   font-size: 14px;
 }
 
+span.size22 {
+  font-size: 22px;
+}
+
 span.color-grey {
   color: #7c7b7b;
 }
@@ -338,6 +342,72 @@ span.icon-color-blue {
 
 .textContainer {
   padding-top: 0.5rem;
+}
+
+/* CONFIRMATION */
+#confirmation h3 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.bookDet {
+  padding-top: 1rem;
+}
+
+.details {
+  font-size: 18px;
+  padding-left: 2rem;
+}
+
+#confirmation img {
+  padding: 2rem 0 3rem 0;
+  width: 100%;
+}
+
+span.congrats {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.conText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.ybr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.reference {
+  color: #535353;
+}
+
+.number {
+  padding-left: 3px;
+  color: #535353;
+}
+
+/* HAMBURGER */
+
+.x-icon {
+  padding: 2rem 1rem 3rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuBtns {
+  text-align: center;
+}
+
+.hamBtn {
+  padding-bottom: 2rem;
 }
 
 /* ABOUT US */
