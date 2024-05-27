@@ -75,6 +75,10 @@ span.size14 {
   font-size: 14px;
 }
 
+span.size22 {
+  font-size: 22px;
+}
+
 span.color-grey {
   color: #7c7b7b;
 }
@@ -310,9 +314,44 @@ span.icon-color-blue {
   right: 20px;
 }
 
+/* HOME */
+
+#home {
+  display: none;
+  padding-bottom: 7rem;
+}
+
+#backgroundHome {
+  background-image: url(../img/homescreen-hero.jpg);
+  background-repeat: no-repeat;
+  padding: 4rem 2rem 1.5rem 6rem;
+}
+
+#backgroundHome h2 {
+  text-align: right;
+}
+
+.itemContainer {
+  padding: 2.5rem 3rem 0 3rem;
+}
+
+.itemContainer img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.textContainer {
+  padding-top: 0.5rem;
+}
+
 /* CONFIRMATION */
 #confirmation h3 {
   text-align: center;
+  padding-top: 3rem;
+}
+
+.bookDet {
+  padding-top: 1rem;
 }
 
 .details {
@@ -355,34 +394,20 @@ span.congrats {
   color: #535353;
 }
 
-/* HOME */
+/* HAMBURGER */
 
-#home {
-  display: none;
-  padding-bottom: 7rem;
+.x-icon {
+  padding: 2rem 1rem 3rem 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
-#backgroundHome {
-  background-image: url(../img/homescreen-hero.jpg);
-  background-repeat: no-repeat;
-  padding: 4rem 2rem 1.5rem 6rem;
+.menuBtns {
+  text-align: center;
 }
 
-#backgroundHome h2 {
-  text-align: right;
-}
-
-.itemContainer {
-  padding: 2.5rem 3rem 0 3rem;
-}
-
-.itemContainer img {
-  width: 100%;
-  border-radius: 15px;
-}
-
-.textContainer {
-  padding-top: 0.5rem;
+.hamBtn {
+  padding-bottom: 2rem;
 }
 
 /* ABOUT US */
