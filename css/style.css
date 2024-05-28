@@ -396,10 +396,18 @@ span.congrats {
 
 /* LISTINGS */
 
+#bookNow {
+  margin-top: 1.5rem;
+}
+
 .officeName {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+}
+
+.price {
+  padding-top: 0.5rem;
 }
 
 .person {
@@ -407,12 +415,45 @@ span.congrats {
 }
 
 .h4pad {
-  padding: 1rem 0 1rem 0;
+  padding: 1.5rem 0 1rem 0;
 }
 
-.description p {
+.description {
   padding-bottom: 1.5rem;
 }
+
+.description2 {
+  padding-bottom: 0rem;
+}
+
+.amCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.amenities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amenities i {
+  padding-bottom: 0.85rem;
+}
+.amenitiesText {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.amenitiesText p {
+  padding-bottom: 1rem;
+}
+
+.amenitiesText .amPad {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
 /* DEDICATED DESK */
 
 #dedicatedDesk img {
