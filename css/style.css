@@ -461,11 +461,44 @@ span.congrats {
 /* DEDICATED DESK */
 
 #dedicatedDesk {
-  display: none;
+  /* display: none; */
   padding-bottom: 5rem;
 }
 
 #dedicatedDesk img {
+  width: 100%;
+}
+
+/* SMALL PRIVATE OFFICE */
+
+#smallOffice {
+  /* display: none; */
+  padding-bottom: 5rem;
+}
+
+#smallOffice img {
+  width: 100%;
+}
+
+/* BIG PRIVATE OFFICE */
+
+#bigOffice {
+  /* display: none; */
+  padding-bottom: 5rem;
+}
+
+#bigOffice img {
+  width: 100%;
+}
+
+/* MEETING ROOM */
+
+#meetingRoom {
+  /* display: none; */
+  padding-bottom: 5rem;
+}
+
+#meetingRoom img {
   width: 100%;
 }
 
