@@ -86,7 +86,7 @@ span.color-grey {
 /* HEADER */
 
 #header {
-  display: none;
+  /* display: none; */
   position: sticky;
   z-index: 9999;
   top: 0;
@@ -115,7 +115,7 @@ span.color-grey {
 /* BOTTOM NAVIGATION */
 
 #navigation {
-  display: none;
+  /* display: none; */
 }
 
 nav {
@@ -235,7 +235,7 @@ span.BaHoPr {
 /* LOG IN */
 
 #logIn {
-  display: none;
+  /* display: none; */
   background-image: url(../img/background.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
@@ -392,6 +392,31 @@ span.congrats {
 .number {
   padding-left: 3px;
   color: #535353;
+}
+
+/* LISTINGS */
+
+.officeName {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.person {
+  display: flex;
+}
+
+.h4pad {
+  padding: 1rem 0 1rem 0;
+}
+
+.description p {
+  padding-bottom: 1.5rem;
+}
+/* DEDICATED DESK */
+
+#dedicatedDesk img {
+  width: 100%;
 }
 
 /* HAMBURGER */
