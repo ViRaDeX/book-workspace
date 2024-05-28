@@ -103,18 +103,26 @@ $(document).ready(function () {
     showSectionHeadNav("contact");
   });
 
+  // Show Dedicated Desk page when clicked Dedicated Desk tile on Home page
   $("#dedicatedDesk-home").click(function () {
     previousSection = $("section:visible").attr("id"); // Save the currently visible section
     showSectionHeadNav("dedicatedDesk");
   });
 
-  // $("#test").click(function () {
-  //   previousSection = $("section:visible").attr("id"); // Save the currently visible section
-  //   showSectionHeadNav("confirmation");
-  // });
+  // Show Booking form page when clicked Book Now button on any listing pages
+  $(".bookNow").click(function () {
+    previousSection = $("section:visible").attr("id"); // Save the currently visible section
+    showSection("bookingForm");
+  });
+
+  // Show Booking Confirmation page when clicked Book Now button on Booking page
+  $("#bookNow-final").click(function () {
+    previousSection = $("section:visible").attr("id"); // Save the currently visible section
+    showSection("confirmation");
+  });
 
   // Navigate to the previous page when clicked on elements with id #backButton
-  $("#backButton").click(function () {
+  $("#backButton #backbtnForm").click(function () {
     if ($("#home").is(":visible")) {
       // If currently on #home, show #splash and hide #header and #navigation
       showSection("splash");

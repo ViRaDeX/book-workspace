@@ -71,9 +71,11 @@
         <h1><span class="center">Welcome</span></h1>
       </div>
       <div class="container-logIn">
-        <input type="email" placeholder="E-mail" />
+        <label for="email-logIn">Email Address</label>
+        <input type="email" name="email-logIn" id="email-logIn" placeholder="E-mail" />
         <div class="password">
-          <input type="password" id="password" placeholder="Password" />
+          <label for="password"></label>
+          <input type="password" name="password" id="password" placeholder="Password" />
           <span class="eyeIcon icon-color-blue"
             ><i class="fa-solid fa-eye"></i
           ></span>
@@ -143,7 +145,7 @@
         <div class="price">
           <p><span class="size14 color-grey">Price</span> <span class="size14 icon-color-blue bold">£5/hour</span> <span class="size14 color-grey">or</span><span class="size14 icon-color-blue bold">   £35/day</span></p>
         </div>
-      <button id="bookNow" class="splash-btn1">Book Now</button>
+      <button class="splash-btn1 bookNow">Book Now</button>
         <div class="h4pad">
           <h4>Description</h4>
         </div>
@@ -175,11 +177,80 @@
           </div>
     </section>
 
+    <!-- BOOKING FORM -->
+    <section id="bookingForm" class="fullHeight">
+      <div class="booking">
+      <h3>Booking</h3>
+      <span><i id="backbtnForm" class="fa-solid fa-arrow-left icon-color-blue icon-size-medium"></i></span>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="bookDet">
+        <p><span class="details">Booking Details</span></p>
+        </div>
+        <form action="action_page/php" method="post">
+          <div class="itemForm">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
+          </div>
+          <div class="itemForm">
+            <label for="tel">Contact Number</label>
+            <input type="tel" name="tel" id="tel" placeholder="Contact Number" required>
+          </div>
+          <div class="itemForm">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="email-address" id="email-address" placeholder="Email Address" required>
+          </div>
+          <div class="itemForm">
+            <label for="workspace">Select Workspace</label>
+            <select name="workspace" id="workspace" required>
+              <option value="Dedicated Desk">Select Workspace</option>
+              <option value="Dedicated Desk">Dedicated Desk</option>
+              <option value="Small Private Office">Small Private Office</option>
+              <option value="Big Private Office">Big Private Office</option>
+              <option value="Meeting Room">Meeting Room</option>
+            </select>
+          </div>
+          <div class="checkInContainer">
+            <div class="itemForm2">
+              <p>Check-in Date</p>
+              <label for="check-in-date">Check-in Date</label>
+              <input type="date" name="check-in-date" id="check-in-date" required >
+            </div>
+            <div class="itemForm2">
+              <p>Check-in Time</p>
+              <label for="check-in-time">Check-in Time</label>
+              <input type="time" name="check-in-time" id="check-in-time" required >
+            </div>
+          </div>
+          <div class="checkInContainer">
+            <div class="itemForm2">
+              <p>Check-out Date</p>
+              <label for="check-out-date">Check-out Date</label>
+              <input type="date" name="check-out-date" id="check-out-date" required >
+            </div>
+            <div class="itemForm2">
+              <p>Check-out Time</p>
+              <label for="check-out-time">Check-out Time</label>
+              <input type="time" name="check-out-time" id="check-out-time" required >
+            </div>
+          </div>
+          <div class="check-box">
+            <label for="terms-and-conditions">I agree to the terms and conditions</label>
+            <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions">
+            <p>I agree to the <span class="underline icon-color-blue">terms and conditions</span></p>
+          </div>
+        </form>
+        <button id="bookNow-final" class="splash-btn1">Book Now</button>
+      </div>
+    </section>
+
     <!-- CONFIRMATION -->
 
-    <section id="confirmation" class="fullHeight container">
+    <section id="confirmation" class="fullHeight">
       <h3>Booking</h3>
       <hr>
+      <div class="container">
         <div class="bookDet">
           <p><span class="details">Booking Details</span></p>
         </div>
@@ -193,6 +264,7 @@
         <p><span class="number bold">#380915</span></p>
       </div>
       <button id="GoBackHome" class="splash-btn1">Go back to Home</button>
+      </div>
     </section>
     
     <!-- HAMBURGER -->

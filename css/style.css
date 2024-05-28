@@ -83,6 +83,10 @@ span.color-grey {
   color: #7c7b7b;
 }
 
+label {
+  display: none;
+}
+
 /* HEADER */
 
 #header {
@@ -344,6 +348,75 @@ span.icon-color-blue {
   padding-top: 0.5rem;
 }
 
+/* BOOKING FORM */
+
+#bookingForm {
+  display: none;
+}
+
+#bookingForm h3 {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.booking {
+  position: relative;
+}
+
+#backbtnForm {
+  position: absolute;
+  top: 52px;
+  left: 25px;
+}
+
+.itemForm input {
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #0018ad;
+  width: 100%;
+}
+
+.itemForm select {
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #0018ad;
+  width: 100%;
+  color: gray;
+}
+
+option:not(:first-of-type) {
+  color: #242424;
+}
+
+.itemForm2 input {
+  font-size: 16px;
+  padding: 10px 15px;
+  margin: 0.5rem 0 1.5rem 0;
+  border-radius: 10px;
+  border: 1px solid #0018ad;
+  width: 9.5rem;
+}
+
+.checkInContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-box {
+  display: flex;
+  padding: 0.5rem 0 3rem 0;
+}
+
+.check-box input {
+  border-radius: 10px;
+  border: 1px solid #0018ad;
+  margin-right: 0.75rem;
+}
+
 /* CONFIRMATION */
 
 #confirmation {
@@ -356,15 +429,15 @@ span.icon-color-blue {
 
 .bookDet {
   padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .details {
   font-size: 18px;
-  padding-left: 2rem;
 }
 
 #confirmation img {
-  padding: 2rem 0 3rem 0;
+  padding: 0 0 3rem 0;
   width: 100%;
 }
 
