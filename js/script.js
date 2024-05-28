@@ -103,10 +103,10 @@ $(document).ready(function () {
     showSectionHeadNav("contact");
   });
 
-  // $("#dedicatedDesk-home").click(function () {
-  //   previousSection = $("section:visible").attr("id"); // Save the currently visible section
-  //   showSectionHeadNav("contact");
-  // });
+  $("#dedicatedDesk-home").click(function () {
+    previousSection = $("section:visible").attr("id"); // Save the currently visible section
+    showSectionHeadNav("dedicatedDesk");
+  });
 
   // $("#test").click(function () {
   //   previousSection = $("section:visible").attr("id"); // Save the currently visible section
