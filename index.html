@@ -64,7 +64,7 @@
 
     <section id="logIn" class="container fullHeight backgroundImage">
       <div class="headerLogIn">
-        <i class="fa-solid fa-arrow-left icon-color-white icon-size-medium backBtn"></i>
+        <i id="backbtnLogIn" class="fa-solid fa-arrow-left icon-color-white icon-size-medium backBtn"></i>
         <img src="img/BWS-logo.png" alt="book workspace logo" />
       </div>
       <div class="welcome">
@@ -73,7 +73,7 @@
       <div class="container-logIn">
         <input type="email" placeholder="E-mail" />
         <div class="password">
-          <input type="password" placeholder="Password" />
+          <input type="password" id="password" placeholder="Password" />
           <span class="eyeIcon icon-color-blue"
             ><i class="fa-solid fa-eye"></i
           ></span>
@@ -95,7 +95,7 @@
         Let’s find the best option
       </h2>
     </div>
-    <div id="dedicatedDesk" class="itemContainer">
+    <div id="dedicatedDesk-home" class="itemContainer">
       <img src="img/01-dedicated-dest.jpg" alt="office room with table and chairs">
       <div class="textContainer">
       <h4><span class="icon-color-blue">Dedicated Desk</span></h4>
@@ -103,7 +103,7 @@
       <p><span class="size14 color-grey">Price from</span> <span class="size14 icon-color-blue bold">£5/hour</span></p>
       </div>
     </div>
-    <div id="smallPrivateOffice" class="itemContainer">
+    <div id="smallPrivateOffice-home" class="itemContainer">
       <img src="img/02-small-office.jpg" alt="office room with table, chairs and sofa">
       <div class="textContainer">
       <h4><span class="icon-color-blue">Small Private Office</span></h4>
@@ -111,7 +111,7 @@
       <p><span class="size14 color-grey">Price from</span> <span class="size14 icon-color-blue bold">£10/hour</span></p>
       </div>
     </div>
-    <div id="bigPrivateOffice" class="itemContainer">
+    <div id="bigPrivateOffice-home" class="itemContainer">
       <img src="img/03-large-office.jpg" alt="office room with large desk and chairs">
       <div class="textContainer">
       <h4><span class="icon-color-blue">Big Private Office</span></h4>
@@ -119,7 +119,7 @@
       <p><span class="size14 color-grey">Price from</span> <span class="size14 icon-color-blue bold">£20/hour</span></p>
       </div>
     </div>
-    <div id="meetingRoom" class="itemContainer">
+    <div id="meetingRoom-home" class="itemContainer">
       <img src="img/04-meeting-room.jpg" alt="conference room with large square table and chairs">
       <div class="textContainer">
       <h4><span class="icon-color-blue">Meeting Room</span></h4>
@@ -130,6 +130,7 @@
     </section> 
 
     <!-- CONFIRMATION -->
+
     <section id="confirmation" class="fullHeight container">
       <h3>Booking</h3>
       <hr>
@@ -236,7 +237,7 @@
     <!-- NAVIGATION-->
     
     <nav id="navigation">
-      <div class="nav-item navArrow backBtn">
+      <div id="backButton" class="nav-item navArrow backBtn">
         <i class="fa-solid fa-arrow-left icon-color-blue icon-size-medium"></i>
         <p><span class="BaHoPr">Back</span></p>
       </div>
