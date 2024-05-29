@@ -471,6 +471,13 @@ span.congrats {
   color: #535353;
 }
 
+#my-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 /* LISTINGS */
 
 .bookNow {
