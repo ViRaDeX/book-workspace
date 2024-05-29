@@ -145,7 +145,7 @@ $(document).ready(function () {
     var confettiSettings = { target: "my-canvas" };
     var confetti = new ConfettiGenerator(confettiSettings);
     confetti.render();
-    $("#my-canvas").height($("#canvas").width() / 2.031);
+    $("#my-canvas").height($("#my-canvas").width() / 0.551);
   });
 
   // Navigate to the previous page when clicked on elements with id #backButton
