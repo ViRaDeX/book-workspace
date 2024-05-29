@@ -10,6 +10,14 @@ $(document).ready(function () {
     $("#" + sectionId).show();
   }
 
+  // Function to slide down a specific section and hide the rest also header and navigation
+  function slideSection(sectionId) {
+    $("#header").hide();
+    $("#navigation").hide();
+    $("section").hide();
+    $("#" + sectionId).slideDown();
+  }
+
   // Function to show a specific section + header and navigation and hide the rest
   function showSectionHeadNav(sectionId) {
     $("#header").show();
@@ -19,13 +27,11 @@ $(document).ready(function () {
   }
 
   //Show Log In page when clicked on Log In | Sign Up button
-
   $("#buttonLS").click(function () {
     showSection("logIn");
   });
 
   //Show password when clicked on eye icon
-
   $(".eyeIcon").click(function () {
     let input = $("#password");
     if (input.attr("type") === "password") {
@@ -36,38 +42,32 @@ $(document).ready(function () {
   });
 
   //Show Splash page when clicked arrow back on Log In page
-
   $("#backbtnLogIn").click(function () {
     showSection("splash");
   });
 
   //   Show Home page when clicked on Skip and explore button
-
   $(".splash-btn2").click(function () {
     previousSection = $("section:visible").attr("id"); // Save the currently visible section
     showSectionHeadNav("home");
   });
 
   //   Show Home page when clicked on Home button inside navigation
-
   $("#homeBtn").click(function () {
     showSectionHeadNav("home");
   });
 
   //   Show Log In page when clicked on Profile button inside navigation
-
   $("#profileBtn").click(function () {
     showSection("logIn");
   });
 
   //   Show Splash page when clicked on logo from any page
-
   $(".headerlogo").click(function () {
     showSection("splash");
   });
 
   //   Show Home page when clicked Go back to home button on congratulation page
-
   $("#GoBackHome").click(function () {
     showSectionHeadNav("home");
   });
@@ -134,7 +134,7 @@ $(document).ready(function () {
   // Show Booking form page when clicked Book Now button on any listing pages
   $(".bookNow").click(function () {
     previousSection = $("section:visible").attr("id"); // Save the currently visible section
-    showSection("bookingForm");
+    slideSection("bookingForm");
   });
 
   // Show Booking Confirmation page when clicked Book Now button on Booking page
@@ -162,8 +162,9 @@ $(document).ready(function () {
   // Navigate to the previous page when clicked on elements with id #backbtnForm
   $("#backbtnForm").click(function () {
     if (previousSection) {
-      // Show the previous section
+      $("#bookingForm").slideUp();
       showSectionHeadNav(previousSection);
+      previousSection = "home";
     }
   });
 });

@@ -10,14 +10,8 @@
 
 body {
   background-color: #ffffff;
-  padding-bottom: 100px;
   max-width: 393px;
   margin: 0 auto;
-}
-
-body,
-html {
-  height: 100%;
 }
 
 p {
@@ -161,6 +155,7 @@ span.BaHoPr {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%; */
+  height: 100vh;
 }
 
 .fullHeight {

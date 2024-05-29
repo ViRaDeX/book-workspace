@@ -20,504 +20,660 @@
       referrerpolicy="no-referrer"
     />
     <title>Book WorkSpace</title>
-   <body>
- </head>   
-
+  </head>
+  <body>
     <!-- HEADER -->
 
     <header id="header">
       <div class="headerWrapper">
-      <div class="headerlogo">
-        <img src="img/BWS-logo.png" alt="BookWorkspace Logo" />
-      </div>
+        <div class="headerlogo">
+          <img src="img/BWS-logo.png" alt="BookWorkspace Logo" />
+        </div>
 
-      <div class="header-hamburger">
-        <i class="fa-solid fa-bars icon-color-blue icon-size-medium"></i>
-      </div>
+        <div class="header-hamburger">
+          <i class="fa-solid fa-bars icon-color-blue icon-size-medium"></i>
+        </div>
       </div>
     </header>
     <main>
+      <!-- SPLASH -->
 
-    <!-- SPLASH -->
+      <section id="splash" class="container fullHeight backgroundImage">
+        <div class="logo">
+          <img src="img/BWS-logo.png" alt="book workspace logo" />
+        </div>
+        <div class="introText">
+          <h1>Find</h1>
+          <h1>Perfect</h1>
+          <h1>WorkSpace</h1>
+        </div>
+        <div class="container-splash">
+          <p>
+            Book WorkSpace is your <nobr>go-to</nobr> platform for booking the
+            ideal workspace tailored to your needs.
+          </p>
+        </div>
+        <div class="center">
+          <button id="buttonLS" class="splash-btn1">Log In | Sign Up</button>
+          <button class="splash-btn2">Skip and explore</button>
+        </div>
+      </section>
 
-    <section id="splash" class="container fullHeight backgroundImage">
-      <div class="logo">
-        <img src="img/BWS-logo.png" alt="book workspace logo" />
-      </div>
-      <div class="introText">
-        <h1>Find</h1>
-        <h1>Perfect</h1>
-        <h1>WorkSpace</h1>
-      </div>
-      <div class="container-splash">
-        <p>
-          Book WorkSpace is your <nobr>go-to</nobr> platform for booking the ideal workspace
-          tailored to your needs.
-        </p>
-      </div>
-      <div class="center">
-        <button id="buttonLS" class="splash-btn1">Log In | Sign Up</button>
-        <button class="splash-btn2">Skip and explore</button>
-      </div>
-    </section>
+      <!-- LOG IN -->
 
-    <!-- LOG IN -->
+      <section id="logIn" class="container fullHeight backgroundImage">
+        <div class="headerLogIn">
+          <i
+            id="backbtnLogIn"
+            class="fa-solid fa-arrow-left icon-color-white icon-size-medium backBtn"
+          ></i>
+          <img src="img/BWS-logo.png" alt="book workspace logo" />
+        </div>
+        <div class="welcome">
+          <h1><span class="center">Welcome</span></h1>
+        </div>
+        <div class="container-logIn">
+          <label for="email-logIn">Email Address</label>
+          <input
+            type="email"
+            name="email-logIn"
+            id="email-logIn"
+            placeholder="E-mail"
+          />
+          <div class="password">
+            <label for="password"></label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <span class="eyeIcon icon-color-blue"
+              ><i class="fa-solid fa-eye"></i
+            ></span>
+          </div>
+          <p><span class="underline">Forgot Password?</span></p>
+          <button class="splash-btn1">Log In</button>
+          <div class="dhaaSUN">
+            <p>Don't have an account?</p>
+            <p><span class="underline icon-color-blue">Sign Up Now</span></p>
+          </div>
+        </div>
+      </section>
 
-    <section id="logIn" class="container fullHeight backgroundImage">
-      <div class="headerLogIn">
-        <i id="backbtnLogIn" class="fa-solid fa-arrow-left icon-color-white icon-size-medium backBtn"></i>
-        <img src="img/BWS-logo.png" alt="book workspace logo" />
-      </div>
-      <div class="welcome">
-        <h1><span class="center">Welcome</span></h1>
-      </div>
-      <div class="container-logIn">
-        <label for="email-logIn">Email Address</label>
-        <input type="email" name="email-logIn" id="email-logIn" placeholder="E-mail" />
-        <div class="password">
-          <label for="password"></label>
-          <input type="password" name="password" id="password" placeholder="Password" />
-          <span class="eyeIcon icon-color-blue"
-            ><i class="fa-solid fa-eye"></i
+      <!-- HOME -->
+
+      <section id="home">
+        <div id="backgroundHome">
+          <h2>Let’s find the best option</h2>
+        </div>
+        <div id="dedicatedDesk-home" class="itemContainer">
+          <img
+            src="img/01-dedicated-dest.jpg"
+            alt="office room with table and chairs"
+          />
+          <div class="textContainer">
+            <h4><span class="icon-color-blue">Dedicated Desk</span></h4>
+            <p><span class="size14">Suitable for 1 person</span></p>
+            <p>
+              <span class="size14 color-grey">Price from</span>
+              <span class="size14 icon-color-blue bold">£5/hour</span>
+            </p>
+          </div>
+        </div>
+        <div id="smallPrivateOffice-home" class="itemContainer">
+          <img
+            src="img/02-small-office.jpg"
+            alt="office room with table, chairs and sofa"
+          />
+          <div class="textContainer">
+            <h4><span class="icon-color-blue">Small Private Office</span></h4>
+            <p><span class="size14">Suitable for 1-3 people</span></p>
+            <p>
+              <span class="size14 color-grey">Price from</span>
+              <span class="size14 icon-color-blue bold">£10/hour</span>
+            </p>
+          </div>
+        </div>
+        <div id="bigPrivateOffice-home" class="itemContainer">
+          <img
+            src="img/03-large-office.jpg"
+            alt="office room with large desk and chairs"
+          />
+          <div class="textContainer">
+            <h4><span class="icon-color-blue">Big Private Office</span></h4>
+            <p><span class="size14">Suitable for 3-8 people</span></p>
+            <p>
+              <span class="size14 color-grey">Price from</span>
+              <span class="size14 icon-color-blue bold">£20/hour</span>
+            </p>
+          </div>
+        </div>
+        <div id="meetingRoom-home" class="itemContainer">
+          <img
+            src="img/04-meeting-room.jpg"
+            alt="conference room with large square table and chairs"
+          />
+          <div class="textContainer">
+            <h4><span class="icon-color-blue">Meeting Room</span></h4>
+            <p><span class="size14">Suitable for 8+ people</span></p>
+            <p>
+              <span class="size14 color-grey">Price from</span>
+              <span class="size14 icon-color-blue bold">£30/hour</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEDICATED DESK -->
+
+      <section id="dedicatedDesk">
+        <img src="img/01-dedicated-dest.jpg" alt="Dedicated Desk" />
+        <div class="container">
+          <div class="officeName">
+            <h4 class="icon-color-blue">Dedicated Desk</h4>
+            <div class="person">
+              <i class="fas fa-user-alt icon-size-small"></i>
+              <p><span class="size14">1</span></p>
+            </div>
+          </div>
+          <hr />
+          <div class="price">
+            <p>
+              <span class="size14 color-grey">Price</span>
+              <span class="size14 icon-color-blue bold">£5/hour</span>
+              <span class="size14 color-grey">or</span
+              ><span class="size14 icon-color-blue bold"> £35/day</span>
+            </p>
+          </div>
+          <button class="splash-btn1 bookNow">Book Now</button>
+          <div class="h4pad">
+            <h4>Description</h4>
+          </div>
+          <div class="description">
+            <p>
+              The dedicated desk option offers a tailored solution for
+              individuals seeking a productive and focused work environment.
+              With a comfortable desk setup and ergonomic seating, users can
+              enjoy a dedicated space within a shared workspace setting.
+            </p>
+          </div>
+          <div class="description2">
+            <p>
+              High-speed Wi-Fi and access to communal areas provide the
+              necessary tools for efficient work, while complimentary
+              refreshments ensure users stay energized throughout their work
+              sessions.
+            </p>
+          </div>
+          <div>
+            <div class="h4pad">
+              <h4>Amenities</h4>
+            </div>
+            <div class="amCont">
+              <div class="amenities">
+                <i class="fa-solid fa-wifi icon-size-small"></i>
+                <i class="fa-solid fa-car-rear icon-size-small"></i>
+                <i class="fa-solid fa-mug-saucer icon-size-small"></i>
+                <i class="fa-solid fa-wheelchair icon-size-small"></i>
+                <i class="fa-solid fa-snowflake icon-size-small"></i>
+              </div>
+              <div class="amenitiesText">
+                <p><span class="amPad">Wifi</span></p>
+                <p><span class="amPad">Free parking on premises</span></p>
+                <p><span class="amPad">Communal refreshment room</span></p>
+                <p><span class="amPad">Wheelchair access</span></p>
+                <p><span class="amPad">Air conditioning</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SMALL PRIVATE OFFICE -->
+
+      <section id="smallOffice">
+        <img src="img/02-small-office.jpg" alt="Small Private Office" />
+        <div class="container">
+          <div class="officeName">
+            <h4 class="icon-color-blue">Small Private Office</h4>
+            <div class="person">
+              <i class="fas fa-user-alt icon-size-small"></i>
+              <p><span class="size14">1-3</span></p>
+            </div>
+          </div>
+
+          <hr />
+          <div class="price">
+            <p>
+              <span class="size14 color-grey">Price</span>
+              <span class="size14 icon-color-blue bold">£10/hour</span>
+              <span class="size14 color-grey">or</span
+              ><span class="size14 icon-color-blue bold"> £75/day</span>
+            </p>
+          </div>
+          <button class="splash-btn1 bookNow">Book Now</button>
+          <div class="h4pad">
+            <h4>Description</h4>
+          </div>
+          <div class="description">
+            <p>
+              Designed for small teams or individuals in need of privacy and
+              collaborative workspace. This option provides a professional
+              setting for focused work and meetings.
+            </p>
+          </div>
+          <div class="description2">
+            <p>
+              Equipped with desks, chairs, and storage solutions, this private
+              office space offers comfort and functionality for up to three
+              people. Secure Wi-Fi access, along with amenities such as a Tv to
+              connect your laptop, ensures seamless communication and
+              productivity.
+            </p>
+          </div>
+          <div>
+            <div class="h4pad">
+              <h4>Amenities</h4>
+            </div>
+            <div class="amCont">
+              <div class="amenities">
+                <i class="fa-solid fa-wifi icon-size-small"></i>
+                <i class="fa-solid fa-car-rear icon-size-small"></i>
+                <i class="fa-solid fa-mug-saucer icon-size-small"></i>
+                <i class="fa-solid fa-wheelchair icon-size-small"></i>
+                <i class="fa-solid fa-snowflake icon-size-small"></i>
+                <i class="fa-solid fa-display icon-size-small"></i>
+                <i class="fa-solid fa-couch icon-size-small"></i>
+              </div>
+              <div class="amenitiesText">
+                <p><span class="amPad">Wifi</span></p>
+                <p><span class="amPad">Free parking on premises</span></p>
+                <p><span class="amPad">Communal refreshment room</span></p>
+                <p><span class="amPad">Wheelchair access</span></p>
+                <p><span class="amPad">Air conditioning</span></p>
+                <p><span class="amPad">Tv</span></p>
+                <p><span class="amPad">Sofa</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BIG PRIVATE OFFICE -->
+
+      <section id="bigOffice">
+        <img src="img/03-large-office.jpg" alt="Big Private Office" />
+        <div class="container">
+          <div class="officeName">
+            <h4 class="icon-color-blue">Big Private Office</h4>
+            <div class="person">
+              <i class="fas fa-user-alt icon-size-small"></i>
+              <p><span class="size14">3-8</span></p>
+            </div>
+          </div>
+          <hr />
+          <div class="price">
+            <p>
+              <span class="size14 color-grey">Price</span>
+              <span class="size14 icon-color-blue bold">£20/hour</span>
+              <span class="size14 color-grey">or</span
+              ><span class="size14 icon-color-blue bold"> £165/day</span>
+            </p>
+          </div>
+          <button class="splash-btn1 bookNow">Book Now</button>
+          <div class="h4pad">
+            <h4>Description</h4>
+          </div>
+          <div class="description">
+            <p>
+              This office provides an expansive and fully-equipped workspace for
+              larger teams or groups. With ample space to accommodate up to
+              eight people comfortably, this private office offers flexibility
+              and functionality for collaborative work and meetings.
+            </p>
+          </div>
+          <div class="description2">
+            <p>
+              Featuring desks, chairs, and storage options, users can customize
+              the space to suit their specific needs. High-speed internet
+              connectivity, conference facilities, and printing services are
+              among the amenities provided, ensuring seamless communication and
+              productivity.
+            </p>
+          </div>
+          <div>
+            <div class="h4pad">
+              <h4>Amenities</h4>
+            </div>
+            <div class="amCont">
+              <div class="amenities">
+                <i class="fa-solid fa-wifi icon-size-small"></i>
+                <i class="fa-solid fa-car-rear icon-size-small"></i>
+                <i class="fa-solid fa-mug-saucer icon-size-small"></i>
+                <i class="fa-solid fa-wheelchair icon-size-small"></i>
+                <i class="fa-solid fa-snowflake icon-size-small"></i>
+                <i class="fa-solid fa-chalkboard-user icon-size-small"></i>
+                <i class="fa-solid fa-print icon-size-small"></i>
+              </div>
+              <div class="amenitiesText">
+                <p><span class="amPad">Wifi</span></p>
+                <p><span class="amPad">Free parking on premises</span></p>
+                <p><span class="amPad">Communal refreshment room</span></p>
+                <p><span class="amPad">Wheelchair access</span></p>
+                <p><span class="amPad">Air conditioning</span></p>
+                <p><span class="amPad">Whiteboard and Projector</span></p>
+                <p><span class="amPad">Printer</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MEETING ROOM -->
+
+      <section id="meetingRoom">
+        <img src="img/04-meeting-room.jpg" alt="Meeting Room" />
+        <div class="container">
+          <div class="officeName">
+            <h4 class="icon-color-blue">Meeting Room</h4>
+            <div class="person">
+              <i class="fas fa-user-alt icon-size-small"></i>
+              <p><span class="size14">8+</span></p>
+            </div>
+          </div>
+          <hr />
+          <div class="price">
+            <p>
+              <span class="size14 color-grey">Price</span>
+              <span class="size14 icon-color-blue bold">£30/hour</span>
+              <span class="size14 color-grey">or</span
+              ><span class="size14 icon-color-blue bold"> £245/day</span>
+            </p>
+          </div>
+          <button class="splash-btn1 bookNow">Book Now</button>
+          <div class="h4pad">
+            <h4>Description</h4>
+          </div>
+          <div class="description">
+            <p>
+              The meeting room offers a versatile and professional venue for
+              hosting meetings, workshops, and presentations. Designed to
+              accommodate eight or more people, this spacious meeting room
+              provides flexible seating arrangements and multimedia
+              capabilities, including projectors and audiovisual equipment.
+            </p>
+          </div>
+          <div class="description2">
+            <p>
+              Video conferencing facilities, flip charts, and complimentary
+              refreshments are among the amenities provided, ensuring a
+              productive and engaging meeting experience.
+            </p>
+          </div>
+          <div>
+            <div class="h4pad">
+              <h4>Amenities</h4>
+            </div>
+            <div class="amCont">
+              <div class="amenities">
+                <i class="fa-solid fa-wifi icon-size-small"></i>
+                <i class="fa-solid fa-car-rear icon-size-small"></i>
+                <i class="fa-solid fa-mug-saucer icon-size-small"></i>
+                <i class="fa-solid fa-wheelchair icon-size-small"></i>
+                <i class="fa-solid fa-snowflake icon-size-small"></i>
+                <i class="fa-solid fa-chalkboard-user icon-size-small"></i>
+              </div>
+              <div class="amenitiesText">
+                <p><span class="amPad">Wifi</span></p>
+                <p><span class="amPad">Free parking on premises</span></p>
+                <p><span class="amPad">Communal refreshment room</span></p>
+                <p><span class="amPad">Wheelchair access</span></p>
+                <p><span class="amPad">Air conditioning</span></p>
+                <p><span class="amPad">Whiteboard and Projector</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOOKING FORM -->
+
+      <section id="bookingForm" class="fullHeight">
+        <div class="booking">
+          <h3>Booking</h3>
+          <span
+            ><i
+              id="backbtnForm"
+              class="fa-solid fa-arrow-left icon-color-blue icon-size-medium"
+            ></i
           ></span>
         </div>
-        <p><span class="underline">Forgot Password?</span></p>
-        <button class="splash-btn1">Log In</button>
-        <div class="dhaaSUN">
-          <p>Don't have an account?</p>
-          <p><span class="underline icon-color-blue">Sign Up Now</span></p>
-        </div>
-      </div>
-    </section>
-
-    <!-- HOME -->   
-
-    <section id="home">
-    <div id="backgroundHome">
-      <h2>
-        Let’s find the best option
-      </h2>
-    </div>
-    <div id="dedicatedDesk-home" class="itemContainer">
-      <img src="img/01-dedicated-dest.jpg" alt="office room with table and chairs">
-      <div class="textContainer">
-      <h4><span class="icon-color-blue">Dedicated Desk</span></h4>
-      <p><span class="size14">Suitable for 1 person</span></p>
-      <p><span class="size14 color-grey">Price from</span> <span class="size14 icon-color-blue bold">£5/hour</span></p>
-      </div>
-    </div>
-    <div id="smallPrivateOffice-home" class="itemContainer">
-      <img src="img/02-small-office.jpg" alt="office room with table, chairs and sofa">
-      <div class="textContainer">
-      <h4><span class="icon-color-blue">Small Private Office</span></h4>
-      <p><span class="size14">Suitable for 1-3 people</span></p>
-      <p><span class="size14 color-grey">Price from</span> <span class="size14 icon-color-blue bold">£10/hour</span></p>
-      </div>
-    </div>
-    <div id="bigPrivateOffice-home" class="itemContainer">
-      <img src="img/03-large-office.jpg" alt="office room with large desk and chairs">
-      <div class="textContainer">
-      <h4><span class="icon-color-blue">Big Private Office</span></h4>
-      <p><span class="size14">Suitable for 3-8 people</span></p>
-      <p><span class="size14 color-grey">Price from</span> <span class="size14 icon-color-blue bold">£20/hour</span></p>
-      </div>
-    </div>
-    <div id="meetingRoom-home" class="itemContainer">
-      <img src="img/04-meeting-room.jpg" alt="conference room with large square table and chairs">
-      <div class="textContainer">
-      <h4><span class="icon-color-blue">Meeting Room</span></h4>
-      <p><span class="size14">Suitable for 8+ people</span></p>
-      <p><span class="size14 color-grey">Price from</span> <span class="size14 icon-color-blue bold">£30/hour</span></p>
-      </div>
-    </div>
-    </section> 
-
-    <!-- DEDICATED DESK -->
-
-    <section id="dedicatedDesk" >
-      <img src="img/01-dedicated-dest.jpg" alt="Dedicated Desk">
+        <hr />
         <div class="container">
-            <div class="officeName">
-              <h4 class="icon-color-blue">Dedicated Desk</h4>
-            <div class="person">
-              <i class="fas fa-user-alt icon-size-small"></i>
-              <p><span class="size14 ">1</span></p>
-            </div>
-      </div>
-      <hr>
-        <div class="price">
-          <p><span class="size14 color-grey">Price</span> <span class="size14 icon-color-blue bold">£5/hour</span> <span class="size14 color-grey">or</span><span class="size14 icon-color-blue bold">   £35/day</span></p>
-        </div>
-      <button class="splash-btn1 bookNow">Book Now</button>
-        <div class="h4pad">
-          <h4>Description</h4>
-        </div>
-        <div class="description">
-          <p>The dedicated desk option offers a tailored solution for individuals seeking a productive and focused work environment. With a comfortable desk setup and ergonomic seating, users can enjoy a dedicated space within a shared workspace setting.</p></div>
-          <div class="description2"> 
-          <p>High-speed Wi-Fi and access to communal areas provide the necessary tools for efficient work, while complimentary refreshments ensure users stay energized throughout their work sessions. </p>
-        </div>
-        <div>
-          <div class="h4pad">
-          <h4>Amenities</h4>
+          <div class="bookDet">
+            <p><span class="details">Booking Details</span></p>
           </div>
-          <div class="amCont">
-            <div class="amenities">
-              <i class="fa-solid fa-wifi icon-size-small"></i>
-              <i class="fa-solid fa-car-rear icon-size-small"></i>
-              <i class="fa-solid fa-mug-saucer icon-size-small"></i>
-              <i class="fa-solid fa-wheelchair icon-size-small"></i>
-              <i class="fa-solid fa-snowflake icon-size-small"></i>
+          <form action="action_page/php" method="post">
+            <div class="itemForm">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                name="full-name"
+                id="full-name"
+                placeholder="Full Name"
+                required
+              />
             </div>
-            <div class="amenitiesText">
-              <p><span class="amPad">Wifi</span></p>                        
-              <p><span class="amPad">Free parking on premises</span></p>
-              <p><span class="amPad">Communal refreshment room</span></p>
-              <p><span class="amPad">Wheelchair access</span></p>
-              <p><span class="amPad">Air conditioning</span></p>
+            <div class="itemForm">
+              <label for="tel">Contact Number</label>
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="Contact Number"
+                required
+              />
             </div>
-           </div>            
-          </div>
-        </div> 
-    </section>
-
-    <!-- SMALL PRIVATE OFFICE -->
-
-    <section id="smallOffice" >
-      <img src="img/02-small-office.jpg" alt="Small Private Office">
-      <div class="container">
-              <div class="officeName">
-                <h4 class="icon-color-blue">Small Private Office</h4>
-                <div class="person">
-                <i class="fas fa-user-alt icon-size-small"></i>
-                <p><span class="size14 ">1-3</span></p>
-                </div>
+            <div class="itemForm">
+              <label for="email-address">Email Address</label>
+              <input
+                type="email"
+                name="email-address"
+                id="email-address"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="itemForm">
+              <label for="workspace">Select Workspace</label>
+              <select name="workspace" id="workspace" required>
+                <option value="Dedicated Desk">Select Workspace</option>
+                <option value="Dedicated Desk">Dedicated Desk</option>
+                <option value="Small Private Office">
+                  Small Private Office
+                </option>
+                <option value="Big Private Office">Big Private Office</option>
+                <option value="Meeting Room">Meeting Room</option>
+              </select>
+            </div>
+            <div class="checkInContainer">
+              <div class="itemForm2">
+                <p>Check-in Date</p>
+                <label for="check-in-date">Check-in Date</label>
+                <input
+                  type="date"
+                  name="check-in-date"
+                  id="check-in-date"
+                  required
+                />
               </div>
-             
-          <hr>
-            <div class="price">
-              <p><span class="size14 color-grey">Price</span> <span class="size14 icon-color-blue bold">£10/hour</span> <span class="size14 color-grey">or</span><span class="size14 icon-color-blue bold">   £75/day</span></p>
-            </div>
-          <button class="splash-btn1 bookNow">Book Now</button>
-            <div class="h4pad">
-              <h4>Description</h4>
-            </div>
-            <div class="description">
-              <p>Designed for small teams or individuals in need of privacy and collaborative workspace. This option provides a professional setting for focused work and meetings. </p></div>
-              <div class="description2"> 
-              <p>Equipped with desks, chairs, and storage solutions, this private office space offers comfort and functionality for up to three people. Secure Wi-Fi access, along with amenities such as a Tv to connect your laptop, ensures seamless communication and productivity. </p>
-            </div>
-            <div>
-              <div class="h4pad">
-              <h4>Amenities</h4>
+              <div class="itemForm2">
+                <p>Check-in Time</p>
+                <label for="check-in-time">Check-in Time</label>
+                <input
+                  type="time"
+                  name="check-in-time"
+                  id="check-in-time"
+                  required
+                />
               </div>
-              <div class="amCont">
-                <div class="amenities">
-                  <i class="fa-solid fa-wifi icon-size-small"></i>
-                  <i class="fa-solid fa-car-rear icon-size-small"></i>
-                  <i class="fa-solid fa-mug-saucer icon-size-small"></i>
-                  <i class="fa-solid fa-wheelchair icon-size-small"></i>
-                  <i class="fa-solid fa-snowflake icon-size-small"></i>
-                  <i class="fa-solid fa-display icon-size-small"></i>
-                  <i class="fa-solid fa-couch icon-size-small"></i>
-                </div>
-                <div class="amenitiesText">
-                  <p><span class="amPad">Wifi</span></p>                        
-                  <p><span class="amPad">Free parking on premises</span></p>
-                  <p><span class="amPad">Communal refreshment room</span></p>
-                  <p><span class="amPad">Wheelchair access</span></p>
-                  <p><span class="amPad">Air conditioning</span></p>
-                  <p><span class="amPad">Tv</span></p>
-                  <p><span class="amPad">Sofa</span></p>
-                </div>
-              </div>            
             </div>
-        </div>     
-    </section>
+            <div class="checkInContainer">
+              <div class="itemForm2">
+                <p>Check-out Date</p>
+                <label for="check-out-date">Check-out Date</label>
+                <input
+                  type="date"
+                  name="check-out-date"
+                  id="check-out-date"
+                  required
+                />
+              </div>
+              <div class="itemForm2">
+                <p>Check-out Time</p>
+                <label for="check-out-time">Check-out Time</label>
+                <input
+                  type="time"
+                  name="check-out-time"
+                  id="check-out-time"
+                  required
+                />
+              </div>
+            </div>
+            <div class="check-box">
+              <label for="terms-and-conditions"
+                >I agree to the terms and conditions</label
+              >
+              <input
+                type="checkbox"
+                name="terms-and-conditions"
+                id="terms-and-conditions"
+              />
+              <p>
+                I agree to the
+                <span class="underline icon-color-blue"
+                  >terms and conditions</span
+                >
+              </p>
+            </div>
+          </form>
+          <button id="bookNow-final" class="splash-btn1">Book Now</button>
+        </div>
+      </section>
 
-     <!-- BIG PRIVATE OFFICE -->
+      <!-- CONFIRMATION -->
 
-    <section id="bigOffice" >
-      <img src="img/03-large-office.jpg" alt="Big Private Office">
+      <section id="confirmation" class="fullHeight">
+        <h3>Booking</h3>
+        <hr />
         <div class="container">
-            <div class="officeName">
-              <h4 class="icon-color-blue">Big Private Office</h4>
-            <div class="person">
-              <i class="fas fa-user-alt icon-size-small"></i>
-              <p><span class="size14 ">3-8</span></p>
-            </div>
-      </div>
-      <hr>
-        <div class="price">
-          <p><span class="size14 color-grey">Price</span> <span class="size14 icon-color-blue bold">£20/hour</span> <span class="size14 color-grey">or</span><span class="size14 icon-color-blue bold">   £165/day</span></p>
+          <div class="bookDet">
+            <p><span class="details">Booking Details</span></p>
+          </div>
+          <img src="img/congrats.png" alt="2 people in the office cartoon" />
+          <p><span class="congrats bold">Congratulations!</span></p>
+          <div class="conText">
+            <p>Your booking has been confirmed.</p>
+            <p>You’ll receive an email confirmation shortly.</p>
+          </div>
+          <div class="ybr">
+            <p><span class="reference">Your Booking Reference is </span></p>
+            <p><span class="number bold">#380915</span></p>
+          </div>
+          <button id="GoBackHome" class="splash-btn1">Go back to Home</button>
         </div>
-      <button class="splash-btn1 bookNow">Book Now</button>
-        <div class="h4pad">
-          <h4>Description</h4>
+        <canvas id="my-canvas" aspect-ratio="auto"></canvas>
+      </section>
+
+      <!-- HAMBURGER -->
+
+      <section id="hamburger" class="fullHeight">
+        <div class="x-icon">
+          <i class="fa-solid fa-xmark icon-color-blue icon-size-medium"></i>
         </div>
-        <div class="description">
-          <p>This office provides an expansive and fully-equipped workspace for larger teams or groups. With ample space to accommodate up to eight people comfortably, this private office offers flexibility and functionality for collaborative work and meetings.</p></div>
-          <div class="description2"> 
-          <p>Featuring desks, chairs, and storage options, users can customize the space to suit their specific needs. High-speed internet connectivity, conference facilities, and printing services are among the amenities provided, ensuring seamless communication and productivity.</p>
+        <div class="menuBtns">
+          <div class="hamBtn">
+            <p><span id="aboutBtn" class="size22"> ABOUT US </span></p>
+          </div>
+          <div class="hamBtn">
+            <p><span id="contactBtn" class="size22"> CONTACT </span></p>
+          </div>
         </div>
+      </section>
+
+      <!-- ABOUT US -->
+
+      <section id="about" class="container">
+        <h3><span class="underline">ABOUT US</span></h3>
+        <p>
+          <span class="helping bold">
+            Helping people to find flexible work and study spaces in
+            Aberdeen.</span
+          >
+        </p>
+        <p>
+          In today's dynamic work environment, individuals and groups often
+          struggle to find suitable spaces for work or study that offer the
+          right amenities, flexibility, and convenience.
+        </p>
+        <p>
+          Traditional options such as coffee shops or libraries may lack
+          privacy, comfort, or availability, while dedicated coworking spaces
+          can be expensive and inflexible.
+        </p>
+        <p>Whether you're</p>
+        <ul>
+          <li>a professional,</li>
+          <li>student,</li>
+          <li>small team or</li>
+          <li>event organizers,</li>
+        </ul>
+        <p>
+          we've got you covered with a selection of workspaces to choose from.
+        </p>
+      </section>
+
+      <!-- CONTACT -->
+
+      <section id="contact" class="container">
+        <h3><span class="underline">CONTACT</span></h3>
         <div>
-          <div class="h4pad">
-          <h4>Amenities</h4>
-          </div>
-          <div class="amCont">
-            <div class="amenities">
-              <i class="fa-solid fa-wifi icon-size-small"></i>
-              <i class="fa-solid fa-car-rear icon-size-small"></i>
-              <i class="fa-solid fa-mug-saucer icon-size-small"></i>
-              <i class="fa-solid fa-wheelchair icon-size-small"></i>
-              <i class="fa-solid fa-snowflake icon-size-small"></i>
-              <i class="fa-solid fa-chalkboard-user icon-size-small"></i>
-              <i class="fa-solid fa-print icon-size-small"></i>
-
-            </div>
-            <div class="amenitiesText">
-              <p><span class="amPad">Wifi</span></p>                        
-              <p><span class="amPad">Free parking on premises</span></p>
-              <p><span class="amPad">Communal refreshment room</span></p>
-              <p><span class="amPad">Wheelchair access</span></p>
-              <p><span class="amPad">Air conditioning</span></p>
-              <p><span class="amPad">Whiteboard and Projector</span></p>
-              <p><span class="amPad">Printer</span></p>
-            </div>
-           </div>            
-          </div>
-        </div> 
-    </section> 
-    
-    <!-- MEETING ROOM -->
-
-    <section id="meetingRoom" >
-      <img src="img/04-meeting-room.jpg" alt="Meeting Room">
-        <div class="container">
-            <div class="officeName">
-              <h4 class="icon-color-blue">Meeting Room</h4>
-            <div class="person">
-              <i class="fas fa-user-alt icon-size-small"></i>
-              <p><span class="size14 ">8+</span></p>
-            </div>
-      </div>
-      <hr>
-        <div class="price">
-          <p><span class="size14 color-grey">Price</span> <span class="size14 icon-color-blue bold">£30/hour</span> <span class="size14 color-grey">or</span><span class="size14 icon-color-blue bold">   £245/day</span></p>
-        </div>
-      <button class="splash-btn1 bookNow">Book Now</button>
-        <div class="h4pad">
-          <h4>Description</h4>
-        </div>
-        <div class="description">
-          <p>The meeting room offers a versatile and professional venue for hosting meetings, workshops, and presentations. Designed to accommodate eight or more people, this spacious meeting room provides flexible seating arrangements and multimedia capabilities, including projectors and audiovisual equipment.</p></div>
-          <div class="description2"> 
-          <p>Video conferencing facilities, flip charts, and complimentary refreshments are among the amenities provided, ensuring a productive and engaging meeting experience.</p>
-        </div>
-        <div>
-          <div class="h4pad">
-          <h4>Amenities</h4>
-          </div>
-          <div class="amCont">
-            <div class="amenities">
-              <i class="fa-solid fa-wifi icon-size-small"></i>
-              <i class="fa-solid fa-car-rear icon-size-small"></i>
-              <i class="fa-solid fa-mug-saucer icon-size-small"></i>
-              <i class="fa-solid fa-wheelchair icon-size-small"></i>
-              <i class="fa-solid fa-snowflake icon-size-small"></i>
-              <i class="fa-solid fa-chalkboard-user icon-size-small"></i>
-            </div>
-            <div class="amenitiesText">
-              <p><span class="amPad">Wifi</span></p>                        
-              <p><span class="amPad">Free parking on premises</span></p>
-              <p><span class="amPad">Communal refreshment room</span></p>
-              <p><span class="amPad">Wheelchair access</span></p>
-              <p><span class="amPad">Air conditioning</span></p>
-              <p><span class="amPad">Whiteboard and Projector</span></p>
-            </div>
-           </div>            
-          </div>
-        </div> 
-    </section>
-
-    <!-- BOOKING FORM -->
-
-    <section id="bookingForm" class="fullHeight">
-      <div class="booking">
-      <h3>Booking</h3>
-      <span><i id="backbtnForm" class="fa-solid fa-arrow-left icon-color-blue icon-size-medium"></i></span>
-      </div>
-      <hr>
-      <div class="container">
-        <div class="bookDet">
-        <p><span class="details">Booking Details</span></p>
-        </div>
-        <form action="action_page/php" method="post">
-          <div class="itemForm">
-            <label for="full-name">Full Name</label>
-            <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
-          </div>
-          <div class="itemForm">
-            <label for="tel">Contact Number</label>
-            <input type="tel" name="tel" id="tel" placeholder="Contact Number" required>
-          </div>
-          <div class="itemForm">
-            <label for="email-address">Email Address</label>
-            <input type="email" name="email-address" id="email-address" placeholder="Email Address" required>
-          </div>
-          <div class="itemForm">
-            <label for="workspace">Select Workspace</label>
-            <select name="workspace" id="workspace" required>
-              <option value="Dedicated Desk">Select Workspace</option>
-              <option value="Dedicated Desk">Dedicated Desk</option>
-              <option value="Small Private Office">Small Private Office</option>
-              <option value="Big Private Office">Big Private Office</option>
-              <option value="Meeting Room">Meeting Room</option>
-            </select>
-          </div>
-          <div class="checkInContainer">
-            <div class="itemForm2">
-              <p>Check-in Date</p>
-              <label for="check-in-date">Check-in Date</label>
-              <input type="date" name="check-in-date" id="check-in-date" required >
-            </div>
-            <div class="itemForm2">
-              <p>Check-in Time</p>
-              <label for="check-in-time">Check-in Time</label>
-              <input type="time" name="check-in-time" id="check-in-time" required >
-            </div>
-          </div>
-          <div class="checkInContainer">
-            <div class="itemForm2">
-              <p>Check-out Date</p>
-              <label for="check-out-date">Check-out Date</label>
-              <input type="date" name="check-out-date" id="check-out-date" required >
-            </div>
-            <div class="itemForm2">
-              <p>Check-out Time</p>
-              <label for="check-out-time">Check-out Time</label>
-              <input type="time" name="check-out-time" id="check-out-time" required >
-            </div>
-          </div>
-          <div class="check-box">
-            <label for="terms-and-conditions">I agree to the terms and conditions</label>
-            <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions">
-            <p>I agree to the <span class="underline icon-color-blue">terms and conditions</span></p>
-          </div>
-        </form>
-        <button id="bookNow-final" class="splash-btn1">Book Now</button>
-      </div>
-    </section>
-
-    <!-- CONFIRMATION -->
-
-    <section id="confirmation" class="fullHeight">
-      <h3>Booking</h3>
-      <hr>
-      <div class="container">
-        <div class="bookDet">
-          <p><span class="details">Booking Details</span></p>
-        </div>
-      <img src="img/congrats.png" alt="2 people in the office cartoon">
-      <p><span class="congrats bold">Congratulations!</span></p>
-      <div class="conText">  
-        <p>Your booking has been confirmed.</p>
-        <p>You’ll receive an email confirmation shortly.</p></div>
-      <div class="ybr">
-        <p><span class="reference">Your Booking Reference is </span></p>
-        <p><span class="number bold">#380915</span></p>
-      </div>
-      <button id="GoBackHome" class="splash-btn1">Go back to Home</button>
-      </div>
-      <canvas id="my-canvas" aspect-ratio="auto"></canvas>
-    </section>
-    
-    <!-- HAMBURGER -->
-    
-    <section id="hamburger" class="fullHeight">
-      <div class="x-icon">
-        <i class="fa-solid fa-xmark icon-color-blue icon-size-medium"></i>
-      </div>
-      <div class="menuBtns">
-        <div class="hamBtn">
-         <p><span id="aboutBtn" class="size22"> ABOUT US </span></p>
-        </div>
-        <div class="hamBtn">
-         <p><span id="contactBtn" class="size22"> CONTACT </span></p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT US -->
-
-    <section id="about" class="container">
-      <h3> <span class="underline">ABOUT US</span></h3>
-      <p>
-      <span class="helping bold">
-        Helping people to find flexible work and study spaces in
-        Aberdeen.</span>
-      </p>
-      <p>
-        In today's dynamic work environment, individuals and groups often
-        struggle to find suitable spaces for work or study that offer the
-        right amenities, flexibility, and convenience.
-      </p>
-      <p>
-        Traditional options such as coffee shops or libraries may lack
-        privacy, comfort, or availability, while dedicated coworking spaces
-        can be expensive and inflexible.
-      </p>
-      <p>Whether you're</p>
-      <ul>
-        <li>a professional,</li>
-        <li>student,</li>
-        <li>small team or</li>
-        <li>event organizers,</li>
-      </ul>
-      <p>
-        we've got you covered with a selection of workspaces to choose from.
-      </p>
-    </section>
-
-    <!-- CONTACT -->
-
-    <section id="contact" class="container">
-      <h3> <span class="underline">CONTACT</span></h3>
-      <div>
-        <p><span class="bold"> Call us</span></p>
+          <p><span class="bold"> Call us</span></p>
           <div class="cef">
             <i class="fa-solid fa-phone icon-size-small"></i>
             <p>+44 1224 123456</p>
           </div>
-        <p><span class="bold"> Email us</span></p>
+          <p><span class="bold"> Email us</span></p>
           <div class="cef">
             <i class="fa-solid fa-envelope icon-size-small"></i>
             <p>bookworkspace@gmail.com</p>
           </div>
-        <p><span class="bold"> Find us</span></p>
+          <p><span class="bold"> Find us</span></p>
           <div class="cef flex-start">
             <i class="fa-solid fa-location-dot icon-size-small"></i>
-              <div>
-                <p>1 Union Wynd,</p>
-                <p>Aberdeen</p>
-                <p>AB10 1SL</p>
-              </div>
+            <div>
+              <p>1 Union Wynd,</p>
+              <p>Aberdeen</p>
+              <p>AB10 1SL</p>
+            </div>
           </div>
-      </div>
-      <div class="map">
-        <iframe class="iframe"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10743.790880615996!2d-2.108697!3d57.144904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e241c72318b%3A0x630ad27d2cadd47f!2s1%20Union%20Wynd%2C%20Aberdeen%20AB10%201SL!5e1!3m2!1sen!2suk!4v1716366391612!5m2!1sen!2suk"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </section>
+        </div>
+        <div class="map">
+          <iframe
+            class="iframe"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10743.790880615996!2d-2.108697!3d57.144904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e241c72318b%3A0x630ad27d2cadd47f!2s1%20Union%20Wynd%2C%20Aberdeen%20AB10%201SL!5e1!3m2!1sen!2suk!4v1716366391612!5m2!1sen!2suk"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
     </main>
 
     <!-- NAVIGATION-->
-    
+
     <nav id="navigation">
       <div id="backButton" class="nav-item navArrow backBtn">
         <i class="fa-solid fa-arrow-left icon-color-blue icon-size-medium"></i>
@@ -534,43 +690,7 @@
         <p><span class="BaHoPr">Profile</span></p>
       </div>
     </nav>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
     <script src="js/script.js"></script>
   </body>
 </html>
