@@ -106,7 +106,29 @@ $(document).ready(function () {
   // Show Dedicated Desk page when clicked Dedicated Desk tile on Home page
   $("#dedicatedDesk-home").click(function () {
     previousSection = $("section:visible").attr("id"); // Save the currently visible section
+    $(window).scrollTop(0);
     showSectionHeadNav("dedicatedDesk");
+  });
+
+  // Show Small Private Office page when clicked Small Private Office tile on Home page
+  $("#smallPrivateOffice-home").click(function () {
+    previousSection = $("section:visible").attr("id"); // Save the currently visible section
+    $(window).scrollTop(0);
+    showSectionHeadNav("smallOffice");
+  });
+
+  // Show Big Private Office page when clicked Big Private Office tile on Home page
+  $("#bigPrivateOffice-home").click(function () {
+    previousSection = $("section:visible").attr("id"); // Save the currently visible section
+    $(window).scrollTop(0);
+    showSectionHeadNav("bigOffice");
+  });
+
+  // Show Meeting Room page when clicked Meeting Room tile on Home page
+  $("#meetingRoom-home").click(function () {
+    previousSection = $("section:visible").attr("id"); // Save the currently visible section
+    $(window).scrollTop(0);
+    showSectionHeadNav("meetingRoom");
   });
 
   // Show Booking form page when clicked Book Now button on any listing pages
@@ -122,12 +144,20 @@ $(document).ready(function () {
   });
 
   // Navigate to the previous page when clicked on elements with id #backButton
-  $("#backButton #backbtnForm").click(function () {
+  $("#backButton").click(function () {
     if ($("#home").is(":visible")) {
       // If currently on #home, show #splash and hide #header and #navigation
       showSection("splash");
     } else if (previousSection) {
       // Otherwise, show the previous section
+      showSectionHeadNav(previousSection);
+    }
+  });
+
+  // Navigate to the previous page when clicked on elements with id #backbtnForm
+  $("#backbtnForm").click(function () {
+    if (previousSection) {
+      // Show the previous section
       showSectionHeadNav(previousSection);
     }
   });

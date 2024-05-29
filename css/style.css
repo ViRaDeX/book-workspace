@@ -534,7 +534,7 @@ span.congrats {
 /* DEDICATED DESK */
 
 #dedicatedDesk {
-  /* display: none; */
+  display: none;
   padding-bottom: 5rem;
 }
 
@@ -545,7 +545,7 @@ span.congrats {
 /* SMALL PRIVATE OFFICE */
 
 #smallOffice {
-  /* display: none; */
+  display: none;
   padding-bottom: 5rem;
 }
 
@@ -556,7 +556,7 @@ span.congrats {
 /* BIG PRIVATE OFFICE */
 
 #bigOffice {
-  /* display: none; */
+  display: none;
   padding-bottom: 5rem;
 }
 
@@ -567,7 +567,7 @@ span.congrats {
 /* MEETING ROOM */
 
 #meetingRoom {
-  /* display: none; */
+  display: none;
   padding-bottom: 5rem;
 }
 
