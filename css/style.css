@@ -373,6 +373,10 @@ span.icon-color-blue {
   width: 100%;
 }
 
+.itemForm input::placeholder {
+  color: #242424;
+}
+
 .itemForm select {
   font-size: 16px;
   padding: 10px 15px;
@@ -380,11 +384,6 @@ span.icon-color-blue {
   border-radius: 10px;
   border: 1px solid #0018ad;
   width: 100%;
-  color: gray;
-}
-
-option:not(:first-of-type) {
-  color: #242424;
 }
 
 .itemForm2 input {
